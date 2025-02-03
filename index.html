@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Peter Gilles/Frans Hinskens" />
+
+<meta name="date" content="2025-01-31" />
+
+<title>Word-final n deletion (WFnD) in Central Franconian (supplementary material)</title>
+
+<script src="index_files/header-attrs-2.26/header-attrs.js"></script>
+<script src="index_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="index_files/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="index_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="index_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="index_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="index_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="index_files/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="index_files/navigation-1.1/tabsets.js"></script>
+<script src="index_files/navigation-1.1/codefolding.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Word-final <em>n</em> deletion (WFnD) in
+Central Franconian (supplementary material)</h1>
+<h4 class="author">Peter Gilles/Frans Hinskens</h4>
+<h4 class="date">2025-01-31</h4>
+
+</div>
+
+
+<div id="introduction" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Introduction</h1>
+<p>Being part of a complex prosodic phenomenon, word-final alveolar
+nasals are deleted in Central Franconian dialects according to a set of
+phonological characteristics of the word itself and the following
+context (‘Word-final <em>n</em> deletion’, WFnD). These intricacies and
+their discussion as an example of the ‘Life cycle of phonological
+processes’ are the topic of our article “The unfolding of word-final /n/
+deletion in Central Franconian dialects. Where internal, geographical,
+and diachronic factors meet” (in prep.). In this article, we argue that
+after deletion the nasal is entirely deleted without a trace in the word
+(e.g. influencing the preceding vowel quality). Thus, WFnD is regarded
+as a phonetically abrupt, phonological process (as opposed to a
+phonetically continuous process).</p>
+<p>To corroborate our claim, the following documentation is intended to
+present some examples and acoustic analysis for this aspect of WFnD.
+First audio examples for words from the dialect of Ubach-over-Worms
+(UoW) are presented alongside with their acoustic representations
+(segment-aligned waveform and spectrogram). In a second, acoustic
+analysis the vowel quality of the preceding vowel is investigated
+regarding eventual differences when the following nasal is deleted or
+retained.</p>
+</div>
+<div id="audio-examples-for-the-dialect-of-ubach-over-worms"
+class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Audio examples for the
+dialect of Ubach-over-Worms</h1>
+<p>In the UoW dialect, depending on the lexical word class, WFnD can
+apply either obligatory or variably, or is entirely blocked. The
+following examples serve as illustrations for these cases.</p>
+<ol style="list-style-type: decimal">
+<li><strong>WFnD is obligatory</strong></li>
+</ol>
+<p>The verb <em>make ’</em>to make’ has lost its final <em>-n</em>,
+which formerly was part of the infinitve ending <em>-en</em>.</p>
+<p><img src="01.png" style="width:60.0%" alt="Image 1" />
+<audio controls> <source src="01.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>WFnD is blocked</strong></li>
+</ol>
+<p>By contract, in the verbal imperative <em>re2əkən</em> ‘calculate!’
+the deletion is blocked because this -nforms part of the verb stem and
+(the infinitive is <em>re2əkənən)</em>.</p>
+<p><img src="02.png" style="width:60.0%" alt="Image 2" />
+<audio controls> <source src="02.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong><em>WFnD</em></strong> <strong>is obligatory</strong></li>
+</ol>
+<p>Similar to 1., the nasal in <em>a2</em> (&lt; <em>a2n</em> ‘to’) is
+lost.</p>
+<p><img src="03.png" style="width:60.0%" alt="Image 3" />
+<audio controls> <source src="03.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>WFnDis blocked</strong></li>
+</ol>
+<p>Similar to 1., WFnD is blocked in <em>haː1n</em> ‘rooster’ as the
+nasal is part of the stem of the noun.</p>
+<p><img src="04.png" style="width:60.0%" alt="Image 4" />
+<audio controls> <source src="04.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p>This and all the following instances allow a consistent investigation
+into the potential consequences of deletion, as the same word variably
+can undergo deletion or retention of the nasal (quasi as a minimal
+pair). In this example, the nasal in <em>bɪn</em> ‘(I) am’ is
+retained.</p>
+<p><img src="05.png" style="width:60.0%" alt="Image 5" />
+<audio controls> <source src="05.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p>Here the same word <em>bɪn</em> is undergoing deletion
+(<em>bɪ_)</em>. According to the auditory control and comparison of the
+formant structure in the spetrogram, there is clearly no phonetic
+residual of the nasal and the quality of the preceding vowel is also
+fairly identical in <em>bɪn</em> and <em>bɪ_.</em> These observations
+support our claim that the nasal is in fact deleted without a trace.</p>
+<p><img src="06.png" style="width:60.0%" alt="Image 6" />
+<audio controls> <source src="06.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<p>The same is true for all of the following word-pairs 7.-14.
+(<em>hɑn/hɑ_, vɑn/vɑ_, kʀɪn/kʀɪ, ʃtɔ̝n/ʃtɔ̝)</em>: The auditory and
+acoustic inspection confirms that the nasal is deleted without
+exercising a noticeable influence on the preceding vowel.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="07.png" style="width:60.0%" alt="Image 7" />
+<audio controls> <source src="07.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="8" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="08.png" style="width:60.0%" alt="Image 8" />
+<audio controls> <source src="08.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="9" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="09.png" style="width:60.0%" alt="Image 9" />
+<audio controls> <source src="09.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="10" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="10.png" style="width:60.0%" alt="Image 10" />
+<audio controls> <source src="10.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="11" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="11.png" style="width:60.0%" alt="Image 11" />
+<audio controls> <source src="11.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="12" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="12.png" style="width:60.0%" alt="Image 12" />
+<audio controls> <source src="12.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="13" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="13.png" style="width:60.0%" alt="Image 13" />
+<audio controls> <source src="13.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+<ol start="14" style="list-style-type: decimal">
+<li><strong>WFnD is variable</strong></li>
+</ol>
+<p><img src="14.png" style="width:60.0%" alt="Image 14" />
+<audio controls> <source src="14.wav" type="audio/wav"> Your browser
+does not support the audio element. </audio></p>
+</div>
+<div id="acoustic-analysis-of-vowel-quality-in-wfnd-in-luxembourgish"
+class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Acoustic analysis of
+vowel quality in WFnD in Luxembourgish</h1>
+<p>In order to investigate the potential impact of deletion on the
+preceding vowel, this following analysis will concentrate on a formant
+analysis of this vowel: If the non-presence of the nasal has an impact
+on the vowel quality of the preceding vowel, then one has to still to
+assume that WFnD is still (also) a phonetic process. By contrast, on the
+other hand, if the vowel quality remains unaffected after application of
+WFnD, then the deletion can actually by regarded as a phonetically
+abrupt, and thus a phonological process.</p>
+<p>This analysis will be conducted for comparable words of
+Luxembourgish, where WFnD is variable after a long vowel (context
+{VVn<sub>1</sub>}): In words like <em>Steen</em> ‘stone’, <em>Reen</em>
+‘rain’ and <em>Been</em> ‘leg’ the final nasal is variable deleted or
+retained. The vowel quality for [eː] thus will be measured for instances
+for <em>Steen, Reen, Been</em> and also for <em>Stee_, Ree_, Bee_.</em>
+These values then will also be compared with the vowel quality of [eː]
+in other words of Luxembourgish (e.g. <em>Beem</em> ‘trees’,
+<em>See</em> ‘saw’ etc.). The data comes from a large crowd-sourced
+corpus of Luxembourgish (<span class="citation">Entringer et al.
+(2021)</span> <span class="citation">Gilles (2023)</span>), which has
+been automatically transcribed with an ASR system (<span
+class="citation">Gilles, Hosseini Kivanani, and Hillah (2023)</span>).
+In the analysis, data from 1574 different speakers have been taken into
+account. After eliminating outliers (using the Mahalanobis method, cf.
+<span class="citation">Stanley (2023)</span>), 2575 instances of the
+relevant words with or without final -n, as well as 35627 other content
+words containing also the vowel [eː], are kept for the formant
+analysis.</p>
+<table>
+<caption>Data set for the vowel quality study.</caption>
+<thead>
+<tr class="header">
+<th>Word</th>
+<th>n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Been</td>
+<td>728</td>
+</tr>
+<tr class="even">
+<td>Bee</td>
+<td>514</td>
+</tr>
+<tr class="odd">
+<td>Reen</td>
+<td>932</td>
+</tr>
+<tr class="even">
+<td>Ree</td>
+<td>142</td>
+</tr>
+<tr class="odd">
+<td>Steen</td>
+<td>127</td>
+</tr>
+<tr class="even">
+<td>Stee</td>
+<td>132</td>
+</tr>
+<tr class="odd">
+<td>remaining content words with [eː]</td>
+<td>33053</td>
+</tr>
+<tr class="even">
+<td><strong>TOTAL</strong></td>
+<td><strong>35627</strong></td>
+</tr>
+</tbody>
+</table>
+<p>For every instance of [eː] the values of F1 and F2 have been measured
+automatically at the temporal midpoint. To be able to compare the
+formant values of speakers directly, the values have been normalised
+using the Lobanov method (to be precise, the Lobanov_2 normalisation
+proposed by <span class="citation">Brand et al. (2021)</span>).</p>
+<p>The following F1/F2 plot shows the mean frequencies per speaker for
+the three target words either with -n retained (left) or deleted
+(right). From the pairwise visual inspection of the two clouds of
+realisations it is obvious that the vowel realisations are rather
+similar, if not identical.</p>
+<p><img src="images/clipboard-3966727719.png" />However, in this
+visualisation it is not possible to identify the degree of similarity on
+the basis of the individual speaker. To further refine the analysis, the
+acoustic distance between the variants with and without -n,
+respectively, and the individual median values of the remaining
+eː-realisations are calculated using the Euclidian distance.</p>
+<p>The following boxplots show the variation of all these distances,
+e.g., the first boxplot shows that the individual median Euclidian
+distances between the [eː] in <em>Been</em> and the median of all other
+[eː] lies around 0.3 units on the Lobanov scale. The variational range
+of the first and the second boxplot overlap to a large extent,
+indicating that the individual distances of the [eː] in <em>Bee</em> to
+the median of all other [eː] is similar.</p>
+<p><img src="images/clipboard-1229279453.png" />While the difference
+between the words with and without final nasal is rather small
+(reconverted to the frequency scale in the order of ~ 50 Hz), a pattern
+regarding retention and deletion of the nasal emerges for the three
+words: It seems that the average distance of the variant with deletion
+is closer to the median of the remaining [eː] realisations and that thus
+the variant with nasal is further away from this median.</p>
+<p>In order to test, it the distances for the two conditions are
+actually statistically different, a Welch two sample t-test has been
+conducted. The results in the following table confirm that there is
+actually no statistical significant difference between the distance of
+[eː] in <em>Been</em> or <em>Bee, Reen</em> or <em>Ree, Steen</em> or
+<em>Stee</em> compared to the other [eː] realisations.</p>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="27%" />
+<col width="17%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>word pair</th>
+<th>test statistic</th>
+<th>p-value</th>
+<th>confidence interval</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Been ~ Bee</td>
+<td>t(1099.98) = 1.55</td>
+<td>0.122</td>
+<td>CI = [−0.005, 0.043]</td>
+</tr>
+<tr class="even">
+<td>Reen ~ Ree</td>
+<td>t(253) = 0,715</td>
+<td>0.475</td>
+<td>CI = [−0.0386, 0.0827]</td>
+</tr>
+<tr class="odd">
+<td>Steen ~ Stee</td>
+<td>t(183) = 1.5593</td>
+<td>0.1206</td>
+<td>CI = [−0.0089, 0.07608]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="conclusion" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Conclusion</h1>
+<p>The aim of the auditory and acoustic analysis presented here should
+shed some light on the phonetic and phonological status of the
+word-final n-deletion in Central Franconian, illustrated for the
+varieties of Ubach-over-Worms and Luxembourg. The various analyses
+support our claim that the deletion of the final nasal is a phonetically
+abrupt process, - at least with regard to its potential influence on the
+preceding vowel: It was so far not possible to detect any clear evidence
+that the presence or absence of the final nasal is reflected
+systematically in the quality of the preceding vowel. Note that further
+studies are still needed to determine the amount of vowel nasalisation
+and if this nasalisation stays also after the deletion of the nasal.</p>
+</div>
+<div id="bibliography" class="section level1 unnumbered">
+<h1 class="unnumbered">Bibliography</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+<div id="ref-brandSystematicCovariationMonophthongs2021"
+class="csl-entry">
+Brand, James, Jen Hay, Lynn Clark, Kevin Watson, and Márton Sóskuthy.
+2021. <span>“Systematic Co-Variation of Monophthongs Across Speakers of
+New Zealand English.”</span> <em>Journal of Phonetics</em> 88
+(September): 101096. <a
+href="https://doi.org/gmtczv">https://doi.org/gmtczv</a>.
+</div>
+<div id="ref-entringer2021" class="csl-entry">
+Entringer, Nathalie, Peter Gilles, Sara Martin, and Christoph Purschke.
+2021. <span>“Schnëssen. Surveying Language Dynamics in Luxembourgish
+with a Mobile Research App.”</span> <em>Linguistics Vanguard</em> 7
+(s1): 20190031. <a
+href="https://doi.org/10.1515/lingvan-2019-0031">https://doi.org/10.1515/lingvan-2019-0031</a>.
+</div>
+<div id="ref-gilles2023" class="csl-entry">
+Gilles, Peter. 2023. <span>“Regional Variation, Internal Change and
+Language Contact in Luxembourgish: Results from an App-Based Language
+Survey.”</span> <em>Taal En Tongval</em> 75 (1): 29–57. <a
+href="https://doi.org/10.5117/TET2023.1.003.GILL">https://doi.org/10.5117/TET2023.1.003.GILL</a>.
+</div>
+<div id="ref-gillesLUXASRBuildingASR2023" class="csl-entry">
+Gilles, Peter, Nina Hosseini Kivanani, and Léopold Edem Ayité Hillah.
+2023. <span>“LUX-ASR: Building an ASR System for the Luxembourgish
+Language.”</span> In <em>Proceedings - 2022 IEEE Spoken Language
+Technology Workshop (SLT)</em>, 1147–49. <a
+href="https://orbilu.uni.lu/handle/10993/55105">https://orbilu.uni.lu/handle/10993/55105</a>.
+</div>
+<div id="ref-joeyr" class="csl-entry">
+Stanley, Joseph A. 2023. <span>“Joeyr: Functions for Vowel Data.”</span>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
