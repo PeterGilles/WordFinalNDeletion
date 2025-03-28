@@ -2,9 +2,9 @@
 editor_options: 
   markdown: 
     wrap: 60
-title: "Word-final *n* deletion (WFnD) in Central Franconian (supplementary material)"
+title: "Reconstructing the spread of word-final /n/ deletion in Central Franconian dialects. Internal and geographical dynamics (supplementary material)"
 author: "Peter Gilles/Frans Hinskens"
-date: "2025-01-31"
+date: "2025-03-28"
 output: 
   html_document:
     toc: true
@@ -24,29 +24,32 @@ bibliography: references.bib
 Being part of a complex prosodic phenomenon, word-final
 alveolar nasals are deleted in Central Franconian dialects
 according to a set of phonological characteristics of the
-word itself and the following context ('Word-final *n*
-deletion', WFnD). These intricacies and their discussion as
-an example of the 'Life cycle of phonological processes' are
+word itself, including the vowel preceding /n/, and the
+following context ('Word-final *n* deletion', WFnD). These
+intricacies and and their analysis within the theoretical
+framework of the ‘Life cycle of phonological processes’ are
 the topic of our article "The unfolding of word-final /n/
 deletion in Central Franconian dialects. Where internal,
 geographical, and diachronic factors meet" (in prep.). In
 this article, we argue that after deletion the nasal is
 entirely deleted without a trace in the word (e.g.
 influencing the preceding vowel quality). Thus, WFnD is
-regarded as a phonetically abrupt, phonological process (as
+regarded as an abrupt and hence phonological process (as
 opposed to a phonetically continuous process).
 
 To corroborate our claim, the following documentation is
 intended to present some examples and acoustic analysis for
-this aspect of WFnD. First audio examples for words from the
-dialect of Ubach-over-Worms (UoW) are presented alongside
-with their acoustic representations (segment-aligned
-waveform and spectrogram). In a second, acoustic analysis
-the vowel quality of the preceding vowel is investigated
-regarding eventual differences when the following nasal is
-deleted or retained.
+this aspect of WFnD. First, audio examples for words from
+the dialect of Ubach over Worms (UoW) are presented
+alongside with their acoustic representations
+(segment-aligned waveform and spectrogram). A second,
+acoustic analysis of crowd-sourced data for Luxembourgish is
+meant to establish whether there are any differences in
+quality of the preceding vowel between words in which the
+following nasal is deleted and words in which it is
+retained.
 
-# Audio examples for the dialect of Ubach-over-Worms
+# Audio examples for the dialect of Ubach over Worms
 
 In the UoW dialect, depending on the lexical word class,
 WFnD can apply either obligatory or variably, or is entirely
@@ -55,8 +58,10 @@ these cases.
 
 1.  **WFnD is obligatory**
 
-The verb *make '*to make' has lost its final *-n*, which
-formerly was part of the infinitve ending *-en*.
+The morpheme *-ən* (in verbs, nouns and adjectives - here as
+plural ending in the equivalent of the verb form *make*
+’make’) has lost its final *-n*, which formerly was part of
+the infinitve ending *-en*.
 
 ![Image 1](01.png){width="60%"} <audio controls>
 <source src="01.wav" type="audio/wav"> Your browser does not
@@ -64,8 +69,8 @@ support the audio element. </audio>
 
 2.  **WFnD is blocked**
 
-By contract, in the verbal imperative *re2əkən* 'calculate!'
-the deletion is blocked because this -nforms part of the
+By contrast, in the verbal imperative *re2əkən* ‘calculate!’
+the deletion is blocked because this *-n* forms part of the
 verb stem and (the infinitive is *re2əkənən)*.
 
 ![Image 2](02.png){width="60%"} <audio controls>
@@ -174,44 +179,64 @@ support the audio element. </audio>
 In order to investigate the potential impact of deletion on
 the preceding vowel, this following analysis will
 concentrate on a formant analysis of this vowel: If the
-non-presence of the nasal has an impact on the vowel quality
-of the preceding vowel, then one has to still to assume that
-WFnD is still (also) a phonetic process. By contrast, on the
-other hand, if the vowel quality remains unaffected after
-application of WFnD, then the deletion can actually by
-regarded as a phonetically abrupt, and thus a phonological
-process.
+non-presence of the nasal has an impact on the quality of
+the preceding vowel, then one has to still to assume that
+WFnD is (also) a gradient and hence phonetic process. By
+contrast, on the other hand, if the vowel quality remains
+unaffected after application of WFnD, then the deletion can
+actually by regarded as a phonetically abrupt, and thus a
+phonological process.
 
 This analysis will be conducted for comparable words of
 Luxembourgish, where WFnD is variable after a long vowel
 (context {VVn~1~}): In words like *Steen* 'stone', *Reen*
-'rain' and *Been* 'leg' the final nasal is variable deleted
-or retained. The vowel quality for [eː] thus will be
+'rain' and *Been* 'leg' the final nasal is allophonically
+deleted or retained. The vowel quality for [eː] thus will be
 measured for instances for *Steen, Reen, Been* and also for
 *Stee\_, Ree\_, Bee\_.* These values then will also be
 compared with the vowel quality of [eː] in other words of
 Luxembourgish (e.g. *Beem* 'trees', *See* 'saw' etc.). The
 data comes from a large crowd-sourced corpus of
-Luxembourgish (@entringer2021 @gilles2023), which has been
+Luxembourgish (@entringer2021, @gilles2023), which has been
 automatically transcribed with an ASR system
 (@gillesLUXASRBuildingASR2023). In the analysis, data from
 1574 different speakers have been taken into account. After
 eliminating outliers (using the Mahalanobis method, cf.
 @joeyr), 2575 instances of the relevant words with or
 without final -n, as well as 35627 other content words
-containing also the vowel [eː], are kept for the formant
-analysis.
+containing also the vowel [eː], were subjected to the
+formant analysis.
 
-| Word                              | n         |
-|-----------------------------------|-----------|
-| Been                              | 728       |
-| Bee                               | 514       |
-| Reen                              | 932       |
-| Ree                               | 142       |
-| Steen                             | 127       |
-| Stee                              | 132       |
-| remaining content words with [eː] | 33053     |
-| **TOTAL**                         | **35627** |
++------+------+
+| Word | n    |
++======+=====:+
+| Been | 728  |
++------+------+
+| Bee  | 514  |
++------+------+
+| Reen | 932  |
++------+------+
+| Ree  | 142  |
++------+------+
+| S    | 127  |
+| teen |      |
++------+------+
+| Stee | 132  |
++------+------+
+| r    | 33   |
+| emai | 053  |
+| ning |      |
+| cont |      |
+| ent\ |      |
+| w    |      |
+| ords |      |
+| with |      |
+| [eː] |      |
++------+------+
+| *    | **3  |
+| *TOT | 562  |
+| AL** | 7**  |
++------+------+
 
 : Data set for the vowel quality study.
 
@@ -222,9 +247,9 @@ values have been normalised using the Lobanov method (to be
 precise, the Lobanov_2 normalisation proposed by
 @brandSystematicCovariationMonophthongs2021).
 
-The following F1/F2 plot shows the mean frequencies per
-speaker for the three target words either with -n retained
-(left) or deleted (right). From the pairwise visual
+The following F1/F2 plot shows the mean formant frequencies
+per speaker for the three target words either with -n
+retained (left) or deleted (right). From the pairwise visual
 inspection of the two clouds of realisations it is obvious
 that the vowel realisations are rather similar, if not
 identical.
@@ -255,34 +280,46 @@ distance of the variant with deletion is closer to the
 median of the remaining [eː] realisations and that thus the
 variant with nasal is further away from this median.
 
-In order to test, it the distances for the two conditions
-are actually statistically different, a Welch two sample
-t-test has been conducted. The results in the following
-table confirm that there is actually no statistical
-significant difference between the distance of [eː] in
-*Been* or *Bee, Reen* or *Ree, Steen* or *Stee* compared to
-the other [eː] realisations.
+In order to test if the distances for the two conditions are
+actually statistically different, a Welch two sample t-test
+has been conducted. The results in the following table
+confirm that there is actually no statistically significant
+difference between the distance of [eː] in *Been* or *Bee,
+Reen* or *Ree, Steen* or *Stee* compared to the other [eː]
+realisations.
 
-| word pair     | test statistic    | p-value | confidence interval     |
-|-----------------|-----------------|-----------|-----------------|
-| Been \~ Bee   | t(1099.98) = 1.55 | 0.122   | CI = [−0.005, 0.043]    |
-| Reen \~ Ree   | t(253) = 0,715    | 0.475   | CI = [−0.0386, 0.0827]  |
-| Steen \~ Stee | t(183) = 1.5593   | 0.1206  | CI = [−0.0089, 0.07608] |
++-----------+-----------+-----------+-----------+
+| word pair | test      | p-value   | c         |
+|           | statistic |           | onfidence |
+|           |           |           | interval  |
++===========+===========+===========+===========+
+| Been \~   | t         | 0.122     | CI =      |
+| Bee       | (1099.98) |           | [−0.005,  |
+|           | = 1.55    |           | 0.043]    |
++-----------+-----------+-----------+-----------+
+| Reen \~   | t(253) =  | 0.475     | CI =      |
+| Ree       | 0,715     |           | [−0.0386, |
+|           |           |           | 0.0827]   |
++-----------+-----------+-----------+-----------+
+| Steen \~  | t(183) =  | 0.1206    | CI =      |
+| Stee      | 1.5593    |           | [−0.0089, |
+|           |           |           | 0.07608]  |
++-----------+-----------+-----------+-----------+
 
 # Conclusion
 
-The aim of the auditory and acoustic analysis presented here
-should shed some light on the phonetic and phonological
-status of the word-final n-deletion in Central Franconian,
-illustrated for the varieties of Ubach-over-Worms and
-Luxembourg. The various analyses support our claim that the
-deletion of the final nasal is a phonetically abrupt
-process, - at least with regard to its potential influence
-on the preceding vowel: It was so far not possible to detect
-any clear evidence that the presence or absence of the final
-nasal is reflected systematically in the quality of the
-preceding vowel. Note that further studies are still needed
-to determine the amount of vowel nasalisation and if this
-nasalisation stays also after the deletion of the nasal.
+The auditory and acoustic analyses presented here shed some
+light on the phonetic and phonological status of word-final
+n-deletion in Central Franconian, illustrated for the
+varieties of Ubach over Worms and Luxembourg. The various
+analyses support our claim that the deletion of the final
+nasal is a phonetically abrupt process, - at least with
+regard to its potential influence on the preceding vowel: It
+was so far not possible to detect any clear evidence that
+the presence or absence of the final nasal is reflected
+systematically in the quality of the preceding vowel. Note
+that further studies are still needed to determine the
+amount of vowel nasalisation and if this nasalisation stays
+also after the deletion of the nasal.
 
 # Bibliography
