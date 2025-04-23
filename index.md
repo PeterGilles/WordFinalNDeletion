@@ -61,7 +61,7 @@ these cases.
 The morpheme *-ən* (in verbs, nouns and adjectives - here as
 plural ending in the equivalent of the verb form *make*
 ’make’) has lost its final *-n*, which formerly was part of
-the infinitve ending *-en*.
+the infinitive ending *-en*.
 
 ![Image 1](01.png){width="60%"} <audio controls>
 <source src="01.wav" type="audio/wav"> Your browser does not
@@ -207,36 +207,16 @@ without final -n, as well as 35627 other content words
 containing also the vowel [eː], were subjected to the
 formant analysis.
 
-+------+------+
-| Word | n    |
-+======+=====:+
-| Been | 728  |
-+------+------+
-| Bee  | 514  |
-+------+------+
-| Reen | 932  |
-+------+------+
-| Ree  | 142  |
-+------+------+
-| S    | 127  |
-| teen |      |
-+------+------+
-| Stee | 132  |
-+------+------+
-| r    | 33   |
-| emai | 053  |
-| ning |      |
-| cont |      |
-| ent\ |      |
-| w    |      |
-| ords |      |
-| with |      |
-| [eː] |      |
-+------+------+
-| *    | **3  |
-| *TOT | 562  |
-| AL** | 7**  |
-+------+------+
+| Word                              |           n |
+|-----------------------------------|------------:|
+| Been                              |         728 |
+| Bee                               |         514 |
+| Reen                              |         932 |
+| Ree                               |         142 |
+| Steen                             |         127 |
+| Stee                              |         132 |
+| remaining content words with [eː] |      33 053 |
+| **TOTAL**                         | **3 562 7** |
 
 : Data set for the vowel quality study.
 
@@ -288,23 +268,11 @@ difference between the distance of [eː] in *Been* or *Bee,
 Reen* or *Ree, Steen* or *Stee* compared to the other [eː]
 realisations.
 
-+-----------+-----------+-----------+-----------+
-| word pair | test      | p-value   | c         |
-|           | statistic |           | onfidence |
-|           |           |           | interval  |
-+===========+===========+===========+===========+
-| Been \~   | t         | 0.122     | CI =      |
-| Bee       | (1099.98) |           | [−0.005,  |
-|           | = 1.55    |           | 0.043]    |
-+-----------+-----------+-----------+-----------+
-| Reen \~   | t(253) =  | 0.475     | CI =      |
-| Ree       | 0,715     |           | [−0.0386, |
-|           |           |           | 0.0827]   |
-+-----------+-----------+-----------+-----------+
-| Steen \~  | t(183) =  | 0.1206    | CI =      |
-| Stee      | 1.5593    |           | [−0.0089, |
-|           |           |           | 0.07608]  |
-+-----------+-----------+-----------+-----------+
+| word pair | test statistic | p-value | c onfidence interval |
+|-----------|--------------|-----------|------------------|
+| Been \~ Bee | t (1099.98) = 1.55 | 0.122 | CI = [−0.005, 0.043] |
+| Reen \~ Ree | t(253) = 0,715 | 0.475 | CI = [−0.0386, 0.0827] |
+| Steen \~ Stee | t(183) = 1.5593 | 0.1206 | CI = [−0.0089, 0.07608] |
 
 # Conclusion
 
